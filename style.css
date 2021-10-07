@@ -1,0 +1,102 @@
+div.parent  {
+             display: inline-block;
+             box-sizing: box;
+             width: 45%;
+             border: 0px solid rgb(248, 240, 240);
+             text-align: center;
+             background-color: hsl(0, 0%, 100%);
+             margin-left: 70%;
+             color: white;
+             position: relative;
+             float: right;
+            }
+    div.fir   {
+             display: inline-block;
+             box-sizing: border-box;
+             width: 40%;
+             border: 5px solid rgb(248, 240, 240);
+             text-align: center;
+             background-color: hsl(229, 52%, 49%);
+             margin-left: 5%;
+             border-radius: 20px;
+             color: white;
+             position: relative;
+             float: right;
+             }
+
+    div.sec  {
+            display: inline-block;
+            box-sizing: border-box;
+            width: 40%;
+            border: 5px solid rgb(248, 240, 240);
+            /*padding: 5px 10px;*/
+             text-align: center;
+             background-color: hsl(229, 52%, 49%);
+             border-radius: 20px;
+            color: white;
+             position: relative;
+            float: right;  
+          } 
+
+img {width:30%; height: 200px;margin-top: 200px;
+  margin-left: 400px;}
+
+ div.third  {
+             /* box-sizing: border-box; */
+            width: 100%;
+            margin-top: 50px;
+            margin-left: 400px;
+           /* border: 5px solid rgb(248, 240, 240);*/
+            /*padding: 5px 10px;*/
+            /* text-align: center;
+            background-color: hsl(229, 52%, 49%);
+            border-radius: 20px;
+            color: white; */  
+            float: center;  
+            } 
+
+  div.forth  {
+                    /* box-sizing: border-box; */
+                   width: 100%;
+                   margin-top: 50px;
+                   margin-left: 400px;
+                  /* border: 5px solid rgb(248, 240, 240);*/
+                   /*padding: 5px 10px;*/
+                   /* text-align: center;
+                   background-color: hsl(229, 52%, 49%);
+                   border-radius: 20px;
+                   color: white; */  
+                   float: center;  
+              } 
+
+  h4 {color: white;}
+
+  input[type=text] {
+    width: 30%;
+    padding: 15px 20px;
+    margin-left: 50px;
+    margin-top: 200px;
+    margin: 8px;
+    box-sizing: content-box;
+    border-radius: 20px;
+    background-color: hsl(228, 40%, 90%);
+    color: white;
+   
+  }
+  input[type=submit ] {
+    width: 30%;
+    padding: 15px 20px;
+    margin-left: 50px;
+    margin: 8px;
+    box-sizing: content-box;
+    border-radius: 20px;
+    background-color: hsl(229, 52%, 49%);
+    color: white;
+    }
+
+  @media (max-width: 600px) {
+    div, input, img {
+      width: 100%;
+      height: auto;
+    }
+  
